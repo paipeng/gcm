@@ -6,11 +6,11 @@
 
 	<groupId>com.paipeng</groupId>
 	<artifactId>gcm</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>Java Google Cloud Message library</name>
-	<description>A librray for sending push notifications to Android devices</description>
+	<description>A JAVA librray for sending push notifications to Android devices</description>
 	<url>https://github.com/paipeng/gcm</url>
 
 	<licenses>
@@ -30,7 +30,7 @@
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/bernardo-mg/gcm/issues</url>
+		<url>https://github.com/paipeng/gcm/issues</url>
 	</issueManagement>
 
 	<ciManagement>
@@ -42,9 +42,9 @@
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>bintray-paipeng-maven</id>
-			<name>bintray</name>
-			<url>http://dl.bintray.com/paipeng/maven</url>
+			<id>releases</id>
+			<name>Releases Repository</name>
+			<url>https://api.bintray.com/maven/paipeng/maven/gcm</url>
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
